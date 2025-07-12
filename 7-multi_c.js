@@ -1,10 +1,11 @@
 const firstArg = process.argv[2];
 
-if (isNaN(Number(firstArg))) {
-  console.log("Missing number of occurences");
+for(let i = 0; i < parseInt(firstArg); i++) 
+ {
+ if (!isNaN(Number(firstArg)))
+  {console.log("C is fun");}
 }
-else {
- for(let i = 0; i < parseInt(firstArg); i++) {
-   console.log("C is fun");
- }
-}
+if (isNaN(Number(firstArg)))
+ {console.log("Missing number of occurences");}
+ 
+
